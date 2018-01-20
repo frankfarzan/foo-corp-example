@@ -4,7 +4,7 @@ metadata:
   name: team-pod-creator
 subjects:
 - kind: Group
-  name: shiiping-app-backend-team
+  name: shipping-app-backend-team
   apiGroup: rbac.authorization.k8s.io
 roleRef:
   kind: ClusterRole
