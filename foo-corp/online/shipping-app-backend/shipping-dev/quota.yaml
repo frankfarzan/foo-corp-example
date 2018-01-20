@@ -2,6 +2,7 @@ kind: ResourceQuota
 apiVersion: v1
 metadata:
   name: pod-quota
+  namespace: shipping-dev
 spec:
   hard:
     pods: "1"
