@@ -1,12 +1,14 @@
 kind: RoleBinding
 apiVersion: rbac.authorization.k8s.io/v1
 metadata:
-  name: pod-creators
+  name: alice-pod-creator
+  namespace: 
 subjects:
 - kind: User
-  name: bob@foo-corp.com
+  name: alice
   apiGroup: rbac.authorization.k8s.io
 roleRef:
   kind: ClusterRole
   name: pod-creator
   apiGroup: rbac.authorization.k8s.io
+
