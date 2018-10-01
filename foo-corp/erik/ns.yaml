@@ -1,7 +1,8 @@
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: qax
+  name: erik
   labels:
-    color: blue
+    color: orange
     env: prod
+
