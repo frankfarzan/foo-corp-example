@@ -1,3 +1,3 @@
 /foo-corp @frankfarzan
-/foo-corp/online @filmil
-/foo-corp/online/shipping-app-backend @mdruskin @briantkennedy
+/foo-corp/namespaces/online @filmil
+/foo-corp/namespaces/online/shipping-app-backend @mdruskin @briantkennedy
