@@ -1,9 +1,0 @@
-kind: NamespaceSelector
-apiVersion: nomos.dev/v1alpha1
-metadata:
-  name: sre-admin
-spec:
-  selector:
-    matchLabels:
-      env: prod
-      color: blue
