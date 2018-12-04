@@ -1,10 +1,10 @@
 kind: ResourceQuota
 apiVersion: v1
 metadata:
-  name: quotaaa
+  name: quotaMAX
 spec:
   hard:
     pods: "3"
     cpu: "1"
-    memory: 2Gi
+    memory: 1Gi
 
