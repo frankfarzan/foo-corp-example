@@ -1,7 +1,7 @@
 kind: ResourceQuota
 apiVersion: v1
 metadata:
-  name: quota
+  name: quotaMAX
 spec:
   hard:
     pods: "3"
