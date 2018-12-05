@@ -1,0 +1,14 @@
+kind: Sync
+apiVersion: nomos.dev/v1alpha1
+metadata:
+  name: configmap
+spec:
+  groups:
+  - group: 
+    kinds:
+    - kind: ConfigMap
+      hierarchyMode: inherit
+      versions:
+      - version: v1
+        compareFields:
+        - data
