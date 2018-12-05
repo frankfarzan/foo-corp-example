@@ -1,3 +1,3 @@
 # Namespaces
 
-This directory contains namespace-scoped resources and configurations.
+This directory contains namespace-scoped resources.
