@@ -1,0 +1,8 @@
+kind: ClusterSelector
+apiVersion: nomos.dev/v1alpha1
+metadata:
+  name: selector-env-dev
+spec:
+  selector:
+    matchLabels:
+      environment: dev
