@@ -16,5 +16,3 @@ data:
 kind: ConfigMap
 metadata:
   name: game-config
-  annotations:
-    nomos.dev/cluster-selector: selector-env-prod
