@@ -12,7 +12,6 @@ spec:
     - kind: ClusterRoleBinding
       versions:
       - version: v1
-        - roleRef
     - kind: Role
       versions:
       - version: v1
