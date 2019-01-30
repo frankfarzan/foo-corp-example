@@ -6,6 +6,5 @@ spec:
   groups:
   - kinds:
     - kind: ResourceQuota
-      hierarchyMode: hierarchicalQuota
       versions:
       - version: v1
