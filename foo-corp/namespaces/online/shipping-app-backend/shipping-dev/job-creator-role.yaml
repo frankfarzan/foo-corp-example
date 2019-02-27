@@ -2,7 +2,6 @@ kind: Role
 apiVersion: rbac.authorization.k8s.io/v1
 metadata:
   name: job-creator
-  namespace: shipping-dev
 rules:
 - apiGroups: ["batch/v1"]
   resources: ["jobs"]
