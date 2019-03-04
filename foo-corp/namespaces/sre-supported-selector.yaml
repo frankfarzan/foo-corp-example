@@ -1,5 +1,5 @@
 kind: NamespaceSelector
-apiVersion: nomos.dev/v1alpha1
+apiVersion: nomos.dev/v1
 metadata:
   name: sre-supported
 spec:
