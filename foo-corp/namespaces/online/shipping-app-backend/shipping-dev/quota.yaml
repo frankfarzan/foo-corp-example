@@ -1,7 +1,7 @@
 kind: ResourceQuota
 apiVersion: v1
 metadata:
-  name: quota
+  name: quota2
 spec:
   hard:
     pods: "1"
