@@ -1,0 +1,9 @@
+kind: HierarchyConfig
+apiVersion: nomos.dev/v1
+metadata:
+  name: hc
+spec:
+  resources:
+  - group: v1
+    kinds: ResourceQuota
+    hierarchyMode: none
