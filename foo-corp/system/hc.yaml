@@ -4,6 +4,6 @@ metadata:
   name: hc
 spec:
   resources:
-  - group: v1
-    kinds: ResourceQuota
-    hierarchyMode: none
+  - group: ""
+    kinds: [ "ResourceQuota" ]
+    hierarchyMode: hierarchicalQuota
