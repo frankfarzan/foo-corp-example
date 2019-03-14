@@ -1,5 +1,5 @@
 kind: HierarchyConfig
-apiVersion: nomos.dev/v1
+apiVersion: configmanagement.gke.io/v1
 metadata:
   name: hc
 spec:
