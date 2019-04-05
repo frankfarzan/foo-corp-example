@@ -2,6 +2,8 @@ kind: RoleBinding
 apiVersion: rbac.authorization.k8s.io/v1
 metadata:
   name: job-creators
+  annotations:
+    configmanagement.gke.io/managed: disabled
 subjects:
 - kind: User
   name: sam@foo-corp.com
